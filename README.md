@@ -1,1 +1,1 @@
-# rn-twilio-text-chat-
+# rn-twilio-text-chat
