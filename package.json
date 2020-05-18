@@ -1,0 +1,31 @@
+{
+  "name": "@rotmanyan/rn-twilio-text-chat",
+  "version": "0.0.1",
+  "description": "A React Native wrapper for the Twilio Chat iOS and Android SDKs",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "copy-to-mobile": "cpx \"./**/*.*\" ../mobile/node_modules/@rotmanyan/rn-twilio-text-chat --verbose"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "ios",
+    "android",
+    "twilio",
+    "messaging",
+    "chat"
+  ],
+  "author": "Rotman Yan <rotman.yan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "cpx": "^1.5.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "react-native": "^0.50.3"
+  }
+}

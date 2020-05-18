@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 11
+        versionName "0.1.1"
+    }
+}
+dependencies {
+    compile 'com.facebook.react:react-native:+'
+    implementation "com.twilio:chat-android:4.0.0"
+    compile "com.twilio:accessmanager-android:0.1.0"
+}
